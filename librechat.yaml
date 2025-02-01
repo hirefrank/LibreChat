@@ -45,15 +45,16 @@ endpoints:
       baseURL: "https://api.fireworks.ai/inference/v1"
       models:
         default: [
-          "accounts/fireworks/models/zephyr-7b-beta",
+          "accounts/fireworks/models/deepseek-r1",
+          "accounts/fireworks/models/llama-v3p3-70b-instruct",
           "accounts/fireworks/models/mistral-small-24b-instruct-2501",
-          "accounts/fireworks/models/mistral-nemo-instruct-2407"
+          "accounts/fireworks/models/llama-v3p2-3b-instruct"
           ]
-        fetch: true
+        fetch: false
       titleConvo: true
-      titleModel: "accounts/fireworks/models/zephyr-7b-beta"
+      titleModel: "accounts/fireworks/models/llama-v3p2-3b-instruct"
       summarize: false
-      summaryModel: "accounts/fireworks/models/zephyr-7b-beta"
+      summaryModel: "accounts/fireworks/models/llama-v3p2-3b-instruct"
       forcePrompt: false
       modelDisplayLabel: "Fireworks"
       dropParams: ["user"]
