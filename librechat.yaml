@@ -38,8 +38,8 @@ registration:
 #     userWindowInMinutes: 60  # Rate limit window for conversation imports per user
 
 # Definition of custom endpoints
-fileConfig:
-  endpoints:
+endpoints:
+  custom:
     - name: "Fireworks"
       apiKey: "${FIREWORKS_API_KEY}"
       baseURL: "https://api.fireworks.ai/inference/v1"
