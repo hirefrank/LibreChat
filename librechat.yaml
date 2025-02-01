@@ -50,7 +50,7 @@ endpoints:
           "accounts/fireworks/models/mistral-small-24b-instruct-2501",
           "accounts/fireworks/models/llama-v3p2-3b-instruct"
           ]
-        fetch: false
+        fetch: true
       titleConvo: true
       titleModel: "accounts/fireworks/models/llama-v3p2-3b-instruct"
       summarize: false
